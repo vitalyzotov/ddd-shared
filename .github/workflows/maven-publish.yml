@@ -21,7 +21,9 @@ jobs:
       with:
         java-version: '8'
         distribution: 'adopt'
-        server-id: github-vzotov # Value of the distributionManagement/repository/id field of the pom.xml
+        server-id: vzotov-releases # Value of the distributionManagement/repository/id field of the pom.xml
+        server-username: MAVEN_REPO_USERNAME
+        server-password: MAVEN_REPO_PASSWORD
         settings-path: ${{ github.workspace }} # location for the settings.xml file
 
     - name: Build with Maven

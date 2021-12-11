@@ -47,9 +47,8 @@
 
     <distributionManagement>
         <repository>
-            <id>github-vzotov</id>
-            <name>GitHub vitalyzotov Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/vitalyzotov/maven</url>
+            <id>vzotov-releases</id>
+            <url>https://maven.vzotov.ru/repository/maven-releases</url>
         </repository>
     </distributionManagement>
 </project>
