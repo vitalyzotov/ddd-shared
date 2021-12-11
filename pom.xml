@@ -48,7 +48,7 @@
     <distributionManagement>
         <repository>
             <id>vzotov-releases</id>
-            <url>https://maven.vzotov.ru/repository/maven-releases</url>
+            <url>https://maven.vzotov.ru/repository/maven-everyone</url>
         </repository>
     </distributionManagement>
 </project>
