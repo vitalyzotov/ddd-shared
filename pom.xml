@@ -6,7 +6,7 @@
 
     <artifactId>ddd-shared</artifactId>
     <groupId>ru.vzotov</groupId>
-    <version>1.4</version>
+    <version>1.5-SNAPSHOT</version>
 
     <description>
         DDD common classes
